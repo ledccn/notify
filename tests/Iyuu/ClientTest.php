@@ -16,9 +16,9 @@ declare(strict_types=1);
 
 namespace Guanguans\NotifyTests\ServerChan;
 
-use Guanguans\Notify\ServerChan\Authenticator;
-use Guanguans\Notify\ServerChan\Client;
-use Guanguans\Notify\ServerChan\Messages\Message;
+use Guanguans\Notify\Iyuu\Authenticator;
+use Guanguans\Notify\Iyuu\Client;
+use Guanguans\Notify\Iyuu\Message\Message;
 
 it('can send message', function (): void {
     $authenticator = new Authenticator('');
